@@ -1,0 +1,22 @@
+h2{
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+@keyframes aparecer{
+     0%   {
+        opacity: 0;
+     }
+     100% {
+        opacity: 1;
+    }
+}
+
+#nombreApellido{
+    width: 100px;
+    transition: all 1s;
+}
+
+#nombreApellido:focus{
+    width: 250px;
+    font-size: 25px;
+}

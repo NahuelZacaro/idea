@@ -1,0 +1,33 @@
+#loguito {height: 80px;
+           width: 80px;
+           position: 1px;
+           margin: 1px;
+
+}
+
+#galeria img{
+    widht:100%;
+    height:400px;
+    padding:30px
+    
+}
+
+#ubicacionUno{padding: 20px;
+              margin: 1px;
+
+}
+
+
+
+#ubicacionDos{padding: 20px;
+              margin: 1px;
+
+}
+.parallaxDos{background-image: url(../assets/img/humoNegro.jpg);
+             height: 685px;
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+
+}

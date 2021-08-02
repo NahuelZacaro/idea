@@ -1,0 +1,23 @@
+
+/* extend */
+.input{
+	width:160px;
+	height:40px;
+	background-color:white;
+	text-align:center;
+	color:black;
+	border-radius:20px;
+	border:1px solid black;
+}
+
+.input--solicitar{
+	@extend .input;
+	background-color:#A74ED4;
+	color:white;
+}
+
+   .input--cancelar{
+	@extend .input;
+	background-color:#A74ED4;
+	color:white;
+}
