@@ -7,17 +7,20 @@ body {
 
 h1 {
   color: black;
-  font-size: 65px;
+  font-size: 70px;
   font-family: 'Marcellus', serif;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding: 30px; }
 
 h2 {
   color: #A74ED4;
   font-family: 'Marcellus', serif;
-  font-size: 35px;
+  font-size: 45px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 20px;
+  padding: 30px; }
 
 h3 {
   color: #A74ED4;
@@ -61,7 +64,7 @@ form div {
 
 #colorSoloParaTitulo {
   color: #A74ED4;
-  font-size: 35px;
+  font-size: 45px;
   font-family: 'Marcellus', serif;
   text-align: center; }
 
@@ -73,23 +76,16 @@ ul ol {
   display: flex;
   justify-content: center; }
 
-#navBar {
+/* NAV */
+.nav a {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Marcellus', serif; }
+
+.nav a:hover {
   background-color: black; }
-  #navBar ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px; }
-    #navBar ul li {
-      display: list-item;
-      display: flex;
-      justify-content: center; }
-      #navBar ul li a {
-        color: white;
-        text-decoration: none;
-        display: block;
-        padding: 10px 80px; }
-        #navBar ul li a a:hover {
-          background-color: #A74ED4; }
 
 h2 {
   animation-duration: 4s;
@@ -136,26 +132,49 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-footer .redes-sociales {
-  color: white;
-  font-size: 35px;
-  background: #8D52B3;
-  font-family: 'Marcellus', serif;
+footer {
+  background: #212529;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  color: white; }
+
+.footer-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+.footer-content h3 {
+  font-size: 40px;
+  text-align: center;
+  color: black; }
+
+.parrafoEst {
+  font-family: 'Marcellus', serif;
+  font-size: 30px; }
+
+.redes-container {
+  display: flex;
+  align-items: center;
   justify-content: center; }
 
-footer .redes {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  padding: 1px;
-  justify-content: space-around;
-  text-align: center;
-  background: black; }
+.redes-container li {
+  display: inline;
+  margin: 30px; }
 
-footer .copy {
+.redes-container li a {
+  display: block;
+  padding: 15px;
+  background: #212529;
+  line-height: 50px;
+  font-size: 50px;
+  width: 90px; }
+
+.copyright {
   font-size: 15px;
-  padding: 1px; }
+  text-align: center; }
 
 #inputUno {
   font-size: 15px; }
@@ -174,47 +193,24 @@ footer .copy {
       font-family: 'Marcellus', serif; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .gridContainer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto  200px 100px;
-    grid-template-areas: "header header" "navGrid navGrid" "parrafo parrafo" "gridImg gridImg" "footer footer"; }
-  header {
-    grid-area: header; }
-  .navGrid {
-    grid-area: navGrid; }
-  .navGrid ul {
+  h1 {
+    font-size: 25px;
+    color: black;
+    font-family: 'Marcellus', serif;
     display: flex;
-    display: block; }
-  .parrafo {
-    grid-area: parrafo; }
-  .gridImg {
-    grid-area: gridImg; }
-  footer {
-    grid-area: footer; }
-  footer .redes {
-    display: flex;
-    font-size: 20px; } }
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .gridcontainer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 70px  auto 60px 100px;
-    grid-template-areas: "header header" "navGrid navGrid" "parrafo parrafo"  "imgGrid imgGrid" "footer footer"; }
-  header {
-    grid-area: header; }
-  .navGrid {
-    grid-area: navGrid; }
-  .navGrid ul {
-    display: flex;
-    display: block; }
-  .parrafo {
-    grid-area: parrafo; }
-  .gridImg {
-    grid-area: gridImg; }
-  footer {
-    grid-area: footer; } }
+    justify-content: center; }
+  #colorSoloParaTitulo {
+    font-size: 25px;
+    text-align: center; }
+  .nav a {
+    margin: 1px; }
+  p {
+    font-size: 15px; }
+  .parrafoEst {
+    font-size: 20px; }
+  .redes-container li {
+    display: inline;
+    margin: 6px; } }
 
 .titulo__color {
   color: black; }
