@@ -1,24 +1,46 @@
-
-footer .redes-sociales{
-                       color: white;
-                       font-size: 35px;
-                       background: #8D52B3;
-                       font-family: 'Marcellus', serif;
-                       display: flex;
-                       justify-content: center;
+footer{
+    background: #212529;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 40px;
+    text-align: center;
+    color:black;
+}
+.parrafoEst{
+    font-family: 'Marcellus', serif;
+    font-size:30px;
+}
+.redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes-container li{
+     display: inline;
+     margin:30px;
 }
 
-footer .redes {
-               display: flex;
-               flex-direction: row;
-               font-size: 30px;
-               padding: 1px;
-               justify-content: space-around;
-               text-align: center;
-               background: black;
-}               
+.redes-container  li a{
+    display: block;
+    padding: 15px;
+    background: #212529;
+    line-height: 50px;
+    font-size: 50px;
+    width: 90px;  
+}
 
-footer .copy{
-             font-size: 15px;
-             padding: 1px;
+.copyright{
+    font-size: 15px;
+    text-align: center;
 }
