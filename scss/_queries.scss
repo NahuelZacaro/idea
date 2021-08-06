@@ -1,55 +1,28 @@
 @media only screen and (min-width:0px) and (max-width:767px){
-    .gridContainer{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto  200px 100px;
-    grid-template-areas:
-    "header header"
-    "navGrid navGrid"
-    "parrafo parrafo"
-    "gridImg gridImg"
-    "footer footer" ;
+    h1{
+        font-size: 25px;
+        color: black;
+        font-family: 'Marcellus', serif;
+        display: flex;
+        justify-content: center; 
+    }
+    #colorSoloParaTitulo{
+        font-size: 25px;
+        text-align: center;
     }
 
-    header{grid-area:header;}
-
-    .navGrid{grid-area:navGrid;}
-    .navGrid ul{display: flex;display: block;}
-
-    .parrafo{grid-area: parrafo;}
-
-    .gridImg{grid-area: gridImg;}
-
-    footer{grid-area:footer;}
-    footer .redes{display: flex;font-size: 20px;}
-}
-
-
-
-
-
-@media only screen and (min-width:768px) and (max-width:1024px){
-    .gridcontainer{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 70px  auto 60px 100px;
-    grid-template-areas:
-    "header header"
-    "navGrid navGrid"
-    "parrafo parrafo" 
-    "imgGrid imgGrid"
-    "footer footer";
+    .nav a{
+        margin: 1px;
     }
-    
-    header{grid-area:header;}
 
-    .navGrid{grid-area:navGrid;}
-    .navGrid ul{display: flex;display: block;}
-
-    .parrafo{grid-area: parrafo;}
-
-    .gridImg{grid-area: gridImg;}
-
-    footer{grid-area:footer;}
-
-}
+    p {
+       font-size:15px;
+    }
+    .parrafoEst{
+    font-size:20px;
+    }
+    .redes-container li{
+     display: inline;
+     margin:6px;
+    }
+    }
