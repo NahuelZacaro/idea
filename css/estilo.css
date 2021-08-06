@@ -170,7 +170,8 @@ footer {
   background: #212529;
   line-height: 50px;
   font-size: 50px;
-  width: 90px; }
+  width: 90px;
+  color: #A74ED4; }
 
 .copyright {
   font-size: 15px;
