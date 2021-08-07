@@ -14,7 +14,7 @@ h1 {
   padding: 40px; }
 
 h2 {
-  color: #582417;
+  color: marron;
   font-family: 'Marcellus', serif;
   font-size: 45px;
   display: flex;
@@ -224,6 +224,18 @@ footer {
 
 titulo__sub--color {
   color: black; }
+
+h2 {
+  color: #582417; }
+
+h3 {
+  color: #582417; }
+
+h6 {
+  color: #582417; }
+
+#colorSoloParaTitulo {
+  color: #582417; }
 
 .titulo__posicion {
   display: flex;
