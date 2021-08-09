@@ -1,11 +1,17 @@
 @media only screen and (min-width:0px) and (max-width:767px){
     h1{
-        font-size: 20px;
+        font-size: 35px;
         color: black;
         font-family: 'Marcellus', serif;
         display: flex;
-        justify-content: center; 
+        justify-content: center;
+        font-weight: 700; 
     }
+    
+    h2{
+     font-size:40px; 
+    }
+
     #colorSoloParaTitulo{
         font-size: 25px;
         text-align: center;
