@@ -14,7 +14,7 @@ h1 {
   padding: 40px; }
 
 h2 {
-  color: marron;
+  color: #582417;
   font-family: 'Marcellus', serif;
   font-size: 45px;
   display: flex;
@@ -148,15 +148,17 @@ footer {
   font-size: 14px; }
 
 .box__footer h3 {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   color: #424242;
-  font-weight: 700; }
+  font-weight: 700;
+  margin: -3px; }
 
 .box__footer a {
   margin-top: 10px;
   color: #7a7a7a;
   font-weight: 600;
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 5px; }
 
 .box__footer a:hover {
   opacity: 0.8; }
@@ -225,18 +227,6 @@ footer {
 titulo__sub--color {
   color: black; }
 
-h2 {
-  color: #582417; }
-
-h3 {
-  color: #582417; }
-
-h6 {
-  color: #582417; }
-
-#colorSoloParaTitulo {
-  color: #582417; }
-
 .titulo__posicion {
   display: flex;
   flex-direction: row;
@@ -269,10 +259,6 @@ h6 {
 .input--cancelar {
   background-color: #582417;
   color: white; }
-
-/* operaciones */
-.aplicando {
-  width: 100%; }
 
 h2 {
   animation-duration: 4s;
