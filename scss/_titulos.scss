@@ -31,14 +31,6 @@ h3 {color:$marron;
     text-transform: uppercase;
 }
 
-h4 {font-family: $fuente;
-    font-size: $taman3;
-    color: $colorNegro;
-    display: flex;
-    justify-content: $posicion;
-
-}
-
 h5 {color: $colorNegro;
 
 }
@@ -69,13 +61,4 @@ form div {font-size: $taman4;
                     font-size: $taman5;
                     font-family: $fuente;
                     text-align: $posicion;
-}
-
-ul ol{font-family: $fuente;
-      font-size: $taman4;
-      padding: 10px;
-      margin: 10px;
-      display: flex;
-      justify-content: $posicion;
-
 }
