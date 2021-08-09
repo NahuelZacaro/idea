@@ -1,8 +1,10 @@
-#inputUno{font-size: 15px;
+@import "tamanios";
+
+#inputUno{font-size: $taman8;
 
 }
 
-#nombreApellido{font-size: 15px;
+#nombreApellido{font-size: $taman8;
                 padding: 5px;
 
 }

@@ -1,14 +1,19 @@
+@import "colores";
+@import "posiciones";
+@import "tamanios";
+@import "fuentes";
+
 /* NAV */
 
 .nav a{
     color: black;
-    font-size: 25px;
-    text-align: center;
+    font-size: $taman6;
+    text-align: $posicion;
     margin: 10px;
-    font-family: 'Marcellus', serif;
+    font-family: $fuente;
 
 }
 
 .nav a:hover{
-    background-color:black ;
+    background-color:$colorNegro ;
 }

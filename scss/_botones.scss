@@ -1,23 +1,25 @@
+@import "colores";
+@import "posiciones";
 
 /* extend */
 .input{
 	width:160px;
 	height:40px;
-	background-color:white;
-	text-align:center;
-	color:black;
+	background-color:$blanco;
+	text-align:$posicion;
+	color:$colorNegro;
 	border-radius:20px;
 	border:1px solid black;
 }
 
 .input--solicitar{
 	@extend .input;
-	background-color:#582417;
-	color:white;
+	background-color:$marron;
+	color:$blanco;
 }
 
    .input--cancelar{
 	@extend .input;
-	background-color:#582417;
-	color:white;
+	background-color:$marron;
+	color:$blanco;
 }

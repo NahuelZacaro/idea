@@ -1,11 +1,13 @@
+@import "colores";
+@import "fuentes";
+
 .card{
-      background:white;
       padding:20px;
       margin:10px;
       card-text{
-      color:black;
+      color:$colorNegro;
       card-title{
-      font-family: 'Marcellus', serif;
+      font-family: $fuente;
 }
 }
 }

@@ -1,3 +1,5 @@
+@import "tamanios";
+
 h2{
     animation-duration: 4s;
     animation-name: aparecer;
@@ -18,7 +20,7 @@ h2{
 
 #nombreApellido:focus{
     width: 250px;
-    font-size: 25px;
+    font-size: $taman6;
 }
 .animacionUno{
     animation-duration: 2s;
