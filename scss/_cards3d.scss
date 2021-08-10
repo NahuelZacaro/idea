@@ -1,9 +1,14 @@
+@import "posiciones";
+@import "colores";
+@import "fuentes";
+@import "tamanios";
+
 .container__card{
     max-width: 1200px;
     margin: auto;
     perspective: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: $posicion;
     flex-wrap: wrap;
 }
 
@@ -26,7 +31,7 @@
 
 .card__front{
     background-size: cover;
-    background-position: center;
+    background-position: $posicion;
 }
 
 .card__front,
@@ -44,58 +49,58 @@
 
 .card__back{
     transform: rotateY(180deg);
-    background: #212529;
+    background: $gris;
 }
 
 .body__card_front{
     width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: $posicion;
     padding: 40px;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
+    justify-content: $posicion;
+    align-items: $posicion;
+    color: $colorNegro;
     transform: translateZ(60px);
 
 }
 .body__card_front h4{
-    font-size: 40px;
-    font-family: 'Marcellus', serif;;
+    font-size: $taman5;
+    font-family: $fuente;
 }
 
 .body__card_back{
     padding: 40px;
-    text-align: center;
+    text-align: $posicion;
     transform: translateZ(60px);
 }
 
 .body__card_back p{
     margin: 30px;
-    font-size: 15px;
-    font-family: 'Marcellus', serif;;
-    color: white;
+    font-size: $taman8;
+    font-family: $fuente;
+    color: $blanco;
 }
 
 .body__card_back h7{
-    font-family:'Marcellus', serif;;
-    font-size: 25px;
-    color: white;
+    font-family:$fuente;
+    font-size: $taman6;
+    color: $blanco;
 }
 
 .body__card_back input{
     padding: 10px 40px;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: $taman8;
     cursor: pointer;
     border: none;
-    color: white;
-    background: #0d6efd;
-    box-shadow: 1px 1px 30px -5px #0d6efd;
+    color: $blanco;
+    background: $azul;
+    box-shadow: 1px 1px 30px -5px $azul;
     border-radius: 10px;
     transition: box-shadow 600ms;
 }
 
 .body__card_back input:hover{
-    box-shadow: 1px 1px 30px 0px #0d6efd;
+    box-shadow: 1px 1px 30px 0px $azul;
 }

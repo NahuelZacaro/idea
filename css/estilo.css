@@ -296,7 +296,7 @@ h2 {
 
 .body__card_front h4 {
   font-size: 40px;
-  font-family: 'Marcellus', serif; }
+  font-family: "Marcellus", serif; }
 
 .body__card_back {
   padding: 40px;
@@ -306,11 +306,11 @@ h2 {
 .body__card_back p {
   margin: 30px;
   font-size: 15px;
-  font-family: 'Marcellus', serif;
+  font-family: "Marcellus", serif;
   color: white; }
 
 .body__card_back h7 {
-  font-family: 'Marcellus', serif;
+  font-family: "Marcellus", serif;
   font-size: 25px;
   color: white; }
 
