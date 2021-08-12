@@ -7,8 +7,8 @@ body {
 
 h2 {
   color: #582417;
-  font-family: "Marcellus", serif;
-  font-size: 45px;
+  font-family: "Abel", sans-serif;
+  font-size: 50px;
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -16,7 +16,7 @@ h2 {
 
 h3 {
   color: #582417;
-  font-family: "Marcellus", serif;
+  font-family: "Abel", sans-serif;
   font-size: 35px;
   padding: 10px;
   display: flex;
@@ -25,7 +25,7 @@ h3 {
 
 h6 {
   color: #582417;
-  font-family: "Marcellus", serif;
+  font-family: "Abel", sans-serif;
   font-size: 35px;
   padding: 20px;
   text-transform: uppercase;
@@ -35,28 +35,28 @@ h6 {
 p {
   color: white;
   font-size: 20px;
-  font-family: "Marcellus", serif;
+  font-family: "Abel", sans-serif;
   text-align: center; }
 
 form div {
   font-size: 20px;
   padding: 5px;
   margin: 5px;
-  font-family: sans-serif; }
+  font-family: "Abel", sans-serif; }
 
 #colorSoloParaTitulo {
   color: #582417;
-  font-size: 40px;
-  font-family: "Marcellus", serif;
+  font-size: 50px;
+  font-family: "Abel", sans-serif;
   text-align: center; }
 
 /* NAV */
 .nav a {
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   margin: 20px;
-  font-family: "Marcellus", serif; }
+  font-family: "Abel", sans-serif; }
 
 .nav a:hover {
   opacity: 0.5; }
@@ -174,24 +174,26 @@ footer {
   font-weight: 500;
   margin: 0;
   margin-top: 20px;
-  color: black; }
+  color: black;
+  font-family: "Abel", sans-serif; }
 
 .service p {
   color: black;
   font-size: 15px;
   font-weight: 500;
-  margin-top: 15px; }
+  margin-top: 15px;
+  font-family: "Abel", sans-serif; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   h1 {
     font-size: 35px;
     color: black;
-    font-family: "Marcellus", serif;
+    font-family: "Abel", sans-serif;
     display: flex;
     justify-content: center;
     font-weight: 700; }
   h2 {
-    font-size: 40px; }
+    font-size: 35px; }
   #colorSoloParaTitulo {
     font-size: 25px;
     text-align: center; }
@@ -199,8 +201,6 @@ footer {
     margin: 1px; }
   p {
     font-size: 15px; }
-  .parrafoEst {
-    font-size: 20px; }
   .redes-container li {
     display: inline;
     margin: 6px; }
@@ -306,7 +306,7 @@ h2 {
 
 .body__card_front h4 {
   font-size: 40px;
-  font-family: "Marcellus", serif; }
+  font-family: "Abel", sans-serif; }
 
 .body__card_back {
   padding: 40px;
@@ -316,11 +316,11 @@ h2 {
 .body__card_back p {
   margin: 30px;
   font-size: 15px;
-  font-family: "Marcellus", serif;
+  font-family: "Abel", sans-serif;
   color: white; }
 
 .body__card_back h7 {
-  font-family: "Marcellus", serif;
+  font-family: "Abel", sans-serif;
   font-size: 25px;
   color: white; }
 

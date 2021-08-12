@@ -6,7 +6,7 @@
 h2 {
   color:$marron;
   font-family: $fuente;
-  font-size: $taman2;
+  font-size: $taman10;
   display: flex;
   justify-content: $posicion; 
   margin: 20px;
@@ -45,7 +45,7 @@ form div {font-size: $taman4;
 }
 
 #colorSoloParaTitulo {color: $marron;
-                    font-size: $taman5;
+                    font-size: $taman10;
                     font-family: $fuente;
                     text-align: $posicion;
 }
