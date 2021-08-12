@@ -2,20 +2,22 @@
   padding: 0; }
 
 body {
-  background: linear-gradient(to bottom, #D2CDCE 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
-  background-blend-mode: multiply; }
+  background-color: #E4E4E1;
+  background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.6) 100%);
+  background-blend-mode: normal, multiply; }
 
 h2 {
-  color: #582417;
+  color: #065471;
   font-family: "Abel", sans-serif;
   font-size: 50px;
   display: flex;
   justify-content: center;
   margin: 20px;
-  padding: 30px; }
+  padding: 30px;
+  font-weight: 600; }
 
 h3 {
-  color: #582417;
+  color: #065471;
   font-family: "Abel", sans-serif;
   font-size: 35px;
   padding: 10px;
@@ -24,7 +26,7 @@ h3 {
   text-transform: uppercase; }
 
 h6 {
-  color: #582417;
+  color: #065471;
   font-family: "Abel", sans-serif;
   font-size: 35px;
   padding: 20px;
@@ -33,10 +35,11 @@ h6 {
   justify-content: center; }
 
 p {
-  color: white;
+  color: #424242;
   font-size: 20px;
   font-family: "Abel", sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-weight: 700; }
 
 form div {
   font-size: 20px;
@@ -45,18 +48,18 @@ form div {
   font-family: "Abel", sans-serif; }
 
 #colorSoloParaTitulo {
-  color: #582417;
+  color: #065471;
   font-size: 50px;
   font-family: "Abel", sans-serif;
   text-align: center; }
 
 /* NAV */
 .nav a {
-  color: black;
   font-size: 30px;
   text-align: center;
   margin: 20px;
-  font-family: "Abel", sans-serif; }
+  font-family: "Abel", sans-serif;
+  font-weight: 500; }
 
 .nav a:hover {
   opacity: 0.5; }
@@ -86,7 +89,7 @@ footer {
   color: white; }
 
 h1 b {
-  color: #582417; }
+  color: #065471; }
 
 h1 {
   color: white; }
@@ -105,7 +108,7 @@ h1 {
 
 .box__footer h3 {
   margin-bottom: 25px;
-  color: #424242;
+  color: #065471;
   font-weight: 700;
   margin: -3px; }
 
@@ -176,14 +179,14 @@ h1 {
 .service h5 {
   font-size: 20px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   margin: 0;
   margin-top: 20px;
   color: black;
   font-family: "Abel", sans-serif; }
 
 .service p {
-  color: black;
+  color: #424242;
   font-size: 15px;
   font-weight: 500;
   margin-top: 15px;
@@ -224,11 +227,11 @@ h1 {
   border: 1px solid black; }
 
 .input--solicitar {
-  background-color: #582417;
+  background-color: #065471;
   color: white; }
 
 .input--cancelar {
-  background-color: #582417;
+  background-color: #065471;
   color: white; }
 
 h2 {
@@ -324,7 +327,8 @@ h2 {
   margin: 30px;
   font-size: 20px;
   font-family: "Abel", sans-serif;
-  color: white; }
+  color: white;
+  font-weight: 500; }
 
 .body__card_back h7 {
   font-family: "Abel", sans-serif;

@@ -11,6 +11,7 @@ h2 {
   justify-content: $posicion; 
   margin: 20px;
   padding: 30px;
+  font-weight: 600;
 }
 
 h3 {color:$marron;
@@ -32,10 +33,11 @@ h6 {color: $marron;
 
 }
 
-p {color: white;
+p {color: $gris2;
    font-size: $taman4;
    font-family: $fuente;
    text-align: $posicion;
+   font-weight: 700;
 }
 
 form div {font-size: $taman4;

@@ -1,5 +1,6 @@
 *{padding: 0;}
 
-body{background: linear-gradient(to bottom, #D2CDCE 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
-  background-blend-mode: multiply;
-}
+body {background-color: #E4E4E1;
+ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+  background-blend-mode: normal, multiply;
+  }
