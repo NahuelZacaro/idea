@@ -3,15 +3,6 @@
 @import "posiciones";
 @import "tamanios";
 
-h1 {
-  color: $colorNegro;
-  font-size: $taman1;
-  font-family: $fuente;
-  display: flex;
-  justify-content: $posicion; 
-  padding: 40px;
-}
-
 h2 {
   color:$marron;
   font-family: $fuente;
@@ -29,10 +20,6 @@ h3 {color:$marron;
     display: flex;
     justify-content: flex-start;
     text-transform: uppercase;
-}
-
-h5 {color: $colorNegro;
-
 }
 
 h6 {color: $marron;
