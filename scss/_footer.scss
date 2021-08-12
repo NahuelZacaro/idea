@@ -1,11 +1,19 @@
 @import "colores";
 @import "posiciones";
+@import "fuentes";
 
 footer{
     width: 100%;
     padding: 20px;
     background: $gris;
     color: $blanco;
+}
+
+h1 b{
+    color:$marron;
+}
+h1{
+    color:white;
 }
 
 .container__footer{
@@ -16,15 +24,10 @@ footer{
     margin: auto;
 
 }
-
 .box__footer{
     display: flex;
     flex-direction: column;
     padding: 40px;
-}
-
-.box__footer .logo img{
-    width: 200px;
 }
 
 .box__footer h3{
@@ -41,6 +44,8 @@ footer{
     font-weight: 600;
     text-decoration: none;
     margin:5px;
+    font-family: $fuente;
+    font-size:$taman4;
 }
 
 .box__footer a:hover{

@@ -43,13 +43,13 @@
     left: 0;
     backface-visibility: hidden;
     transform-style: preserve-3d;
-    border-radius: 20px;
+    border-radius: 1px;
 
 }
 
 .card__back{
     transform: rotateY(180deg);
-    background: $gris;
+    background: $gris2;
 }
 
 .body__card_front{
@@ -67,6 +67,7 @@
 .body__card_front h4{
     font-size: $taman5;
     font-family: $fuente;
+    font-weight: 600;
 }
 
 .body__card_back{
@@ -77,30 +78,30 @@
 
 .body__card_back p{
     margin: 30px;
-    font-size: $taman8;
+    font-size: $taman4;
     font-family: $fuente;
     color: $blanco;
 }
 
 .body__card_back h7{
     font-family:$fuente;
-    font-size: $taman6;
-    color: $blanco;
+    font-size: $taman9;
+    color: $colorNegro;
 }
 
 .body__card_back input{
     padding: 10px 40px;
-    margin-top: 20px;
+    margin-top: 2px;
     font-size: $taman8;
     cursor: pointer;
     border: none;
     color: $blanco;
-    background: $azul;
-    box-shadow: 1px 1px 30px -5px $azul;
+    background: $gris;
+    box-shadow: 1px 1px 30px -5px $gris;
     border-radius: 10px;
     transition: box-shadow 600ms;
 }
 
 .body__card_back input:hover{
-    box-shadow: 1px 1px 30px 0px $azul;
+    box-shadow: 1px 1px 30px 0px $colorNegro;
 }
