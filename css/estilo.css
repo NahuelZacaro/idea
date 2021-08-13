@@ -235,6 +235,8 @@ footer {
   #colorSoloParaTitulo {
     font-size: 25px;
     text-align: center; }
+  .nav a {
+    margin: 1px; }
   p {
     font-size: 15px; }
   .service {
