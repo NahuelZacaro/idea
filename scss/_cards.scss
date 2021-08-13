@@ -33,6 +33,11 @@
     margin-top: 20px;
 }
 
+.service i:hover{
+    transform: translateY(-10px)
+
+}
+
 .service h5{
     font-size: $taman4;
     text-transform: uppercase;

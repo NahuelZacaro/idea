@@ -3,7 +3,13 @@
 @import "tamanios";
 @import "fuentes";
 
-/* NAV */
+b{
+    color:#065471;
+}
+
+h1 {
+    color:white;
+}
 
 .nav a{
     font-size: $taman9;
@@ -12,8 +18,10 @@
     font-family: $fuente;
     font-weight: 500;
 
+
 }
 
 .nav a:hover{
-    opacity: 0.5; ;
+    transform: translateY(-5px)
+
 }

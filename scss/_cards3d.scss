@@ -32,6 +32,20 @@
 .card__front{
     background-size: cover;
     background-position: $posicion;
+
+}
+
+.front_botton{ padding: 10px 20px;
+    margin-top: 2px;
+    font-size: $taman8;
+    cursor: pointer;
+    border: none;
+    color: $blanco;
+    background: $gris;
+    box-shadow: 1px 1px 30px -5px $gris;
+    border-radius: 10px;
+    opacity:0.5;
+    
 }
 
 .card__front,
@@ -49,7 +63,7 @@
 
 .card__back{
     transform: rotateY(180deg);
-    background: $gris2;
+    background: $gris;
 }
 
 .body__card_front{
@@ -63,11 +77,6 @@
     color: $colorNegro;
     transform: translateZ(60px);
 
-}
-.body__card_front h4{
-    font-size: $taman5;
-    font-family: $fuente;
-    font-weight: 600;
 }
 
 .body__card_back{
@@ -88,6 +97,7 @@
     font-family:$fuente;
     font-size: $taman9;
     color: $colorNegro;
+    font-weight: 700;
 }
 
 .body__card_back input{
@@ -98,7 +108,7 @@
     border: none;
     color: $blanco;
     background: $gris;
-    box-shadow: 1px 1px 30px -5px $gris;
+    box-shadow: 1px 1px 30px -5px $gris2;
     border-radius: 10px;
     transition: box-shadow 600ms;
 }

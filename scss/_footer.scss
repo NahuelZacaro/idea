@@ -9,13 +9,6 @@ footer{
     color: $blanco;
 }
 
-h1 b{
-    color:#065471;
-}
-h1{
-    color:white;
-}
-
 .container__footer{
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +42,7 @@ h1{
 }
 
 .box__footer a:hover{
-    opacity: 0.8;
+    transform: translateY(-5px)
 }
 
 .box__footer a .fab{
