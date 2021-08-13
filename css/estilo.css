@@ -243,7 +243,9 @@ footer {
     display: inline;
     margin: 6px; }
   .service {
-    width: 100%; } }
+    width: 100%; }
+  .card__back {
+    background: #212529; } }
 
 /* extend */
 .input, .input--solicitar, .input--cancelar {
