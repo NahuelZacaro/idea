@@ -54,10 +54,12 @@ form div {
   text-align: center; }
 
 b {
-  color: #065471; }
+  color: #065471;
+  font-weight: 700; }
 
 h1 {
-  color: white; }
+  color: white;
+  font-weight: 700; }
 
 .nav a {
   font-size: 30px;
