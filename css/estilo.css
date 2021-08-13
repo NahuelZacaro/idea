@@ -169,12 +169,31 @@ footer {
   height: 1px;
   background-color: #7a7a7a; }
 
-#inputUno {
-  font-size: 15px; }
+.col-form-label {
+  padding: 20px; }
 
-#nombreApellido {
-  font-size: 15px;
-  padding: 5px; }
+.bottom {
+  margin: 20px;
+  background: #065471; }
+
+.bottom:hover {
+  box-shadow: 1px 1px 30px 0px #212529; }
+
+.col-form-label {
+  font-size: 25px;
+  font-family: "Abel", sans-serif;
+  font-weight: 600; }
+
+.col-form-label:hover {
+  transform: translateY(-5px); }
+
+.imagenReserva {
+  display: flex;
+  justify-content: center;
+  width: 50px; }
+
+.padre {
+  margin: 50px; }
 
 .services {
   text-align: center; }
@@ -258,25 +277,9 @@ footer {
   .animacionFotos8 {
     animation-duration: 10s; }
   .animacionFotos9 {
-    animation-duration: 11s; } }
-
-/* extend */
-.input, .input--solicitar, .input--cancelar {
-  width: 160px;
-  height: 40px;
-  background-color: white;
-  text-align: center;
-  color: black;
-  border-radius: 20px;
-  border: 1px solid black; }
-
-.input--solicitar {
-  background-color: #065471;
-  color: white; }
-
-.input--cancelar {
-  background-color: #065471;
-  color: white; }
+    animation-duration: 11s; }
+  .padre {
+    margin: 0; } }
 
 #nombreApellido {
   width: 100px;

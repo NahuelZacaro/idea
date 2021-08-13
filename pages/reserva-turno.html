@@ -49,75 +49,90 @@
      
      <!--section----> 
 
-     <div class="container-fluid">
-       <div class="row">
-          <div class="col-lg-12">
+     <h2 class="animate__animated animate__backInDown">RESERVAS</h2>
 
-            <h2 class="animate__animated animate__backInDown">RESERVAS</h2>
-
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1" id="inputUno">
-                 Peluqueria / Barberia
-             </label>
-         </div>
-
-         <div class="form-check">
-           <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-           <label class="form-check-label" for="flexRadioDefault2" id="inputDos">
-              Estetica
-          </label>
-      </div>
-
-      <form action="#">
-       <input type="text" placeholder="Nombre y Apellido" id="nombreApellido"><br>
-
-       <form action="#">
-           <textarea name="" id="" cols="60" rows="10" placeholder="Desarrolla tu comentario"></textarea>
-
-           <h3>Sucursal</h3>
-
-           <select class="form-select" aria-label="Default select example">
-              <option selected>Sucursales Disponibles</option>
-              <option value="1">Fuerza Area 1232</option>
-              <option value="2">Pueyrredon 144</option>
-
-          </select>
-          
-          <h3>Dia y Horario</h3>
-
-          <select class="form-select" aria-label="Default select example">
-           <option selected> Martes 17hs</option>
-           <option value="1"> Miercoles 10hs</option>
-           <option value="2"> Jueves 19hs</option>
-           <option value="3"> Viernes 9:30hs</option>
-           <option value="4"> Sabado 11hs</option>
-
-       </select>
-
-       <br><br><input type="submit" value="SOLICITAR TURNO" class=" input input--solicitar">
-       <input type="reset" value="BORRAR" class=" input input--cancelar">
-       
-   </form>
+<div class="padre">
+     <div class="container">
+      <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="text" class="col-form-label">Nombre</label>
+        </div>
+        <div class="col-auto">
+            <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+        </div>
+    </div>
 </div>
-</div>
-</div> 
 
 <div class="container">
-   <div class="row">
-      <div class="col-lg-12">
-
-        <h6>Ubicacion</h6>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54484.91986523657!2d-64.23980225908409!3d-31.405653140222167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a3b4fd90766d%3A0x82ac97d01234ea77!2sEspacio%20Sans%20Peluquer%C3%ADa%20Unisex%20%26%20Est%C3%A9tica!5e0!3m2!1ses!2sar!4v1623937265856!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" id="ubicacionUno"></iframe>"
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d54493.9954108959!2d-64.20032045918357!3d-31.39001794155727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-31.3524224!2d-64.159744!4m5!1s0x9432a27d3d136997%3A0xa68c61b5e9e19561!2spueyrredon!3m2!1d-31.4246287!2d-64.1972468!5e0!3m2!1ses!2sar!4v1624651079303!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" id="ubicacionDos"></iframe>
-
+  <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <label for="text" class="col-form-label">Apellido</label>
+    </div>
+    <div class="col-auto">
+        <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
     </div>
 </div>
 </div>
 
+<div class="container">
+  <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <label for="text" class="col-form-label">Servicios</label>
+    </div>
+    <div class="col-auto">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Disponibles</option>
+          <option value="1"> Peluqueria</option>
+          <option value="2">Belleza de manos</option>
+      </select>
+  </div>
+</div>
+</div>
 
-<br><br>
+<div class="container">
+  <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <label for="text" class="col-form-label">Sucursal</label>
+    </div>
+    <div class="col-auto">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Disponibles</option>
+          <option value="1">Betania 445</option>
+          <option value="2">Sor juana Cruz 22</option>
+
+      </select>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <label for="text" class="col-form-label">Horarios</label>
+    </div>
+    <div class="col-auto">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Disponibles</option>
+          <option value="1"> Miercoles 10hs</option>
+          <option value="2"> Jueves 19hs</option>
+          <option value="3"> Viernes 9:30hs</option>
+          <option value="4"> Domingo 18.30hs</option>
+
+      </select>
+  </div>
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row g-3 align-items-center">
+      <div class="col-auto">
+       <button type="submit" class=" bottom btn btn-primary">Solicitar Turno</button>
+       <button type="submit" class=" bottom btn btn-primary">Borrar</button>
+   </div>
+</div>
+</div>
+</div>
 
 
 <!--footer---->
@@ -140,7 +155,7 @@
         </div>
         <div class="box__footer">
             <h3>Redes sociales</h3>
-            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i>Facebook-square</a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i>Facebook</a>
             <a href="https://www.twitter.com"><i class="fab fa-twitter"></i>Twitter</a>
             <a href="https://www.instagram.com"><i class="fab fa-instagram"></i>Instagram</a>
             <a href="https://www.youtube.com"><i class="fab fa-youtube"></i>Youtbe</a>                

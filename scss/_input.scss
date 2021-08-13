@@ -1,10 +1,38 @@
+@import "colores";
+@import "fuentes";
+@import "posiciones";
 @import "tamanios";
 
-#inputUno{font-size: $taman8;
+.col-form-label{
+    padding:20px;
+}
+
+.bottom{
+    margin:20px;
+    background:$marron;
+}
+
+.bottom:hover{
+    box-shadow: 1px 1px 30px 0px $gris;
+}
+
+.col-form-label{
+    font-size:$taman6;
+    font-family: $fuente;
+    font-weight: 600;
+}
+
+.col-form-label:hover{
+    transform: translateY(-5px);
 
 }
 
-#nombreApellido{font-size: $taman8;
-                padding: 5px;
+.imagenReserva{
+    display:flex;
+    justify-content:center;
+    width:50px;
+}
 
+.padre{
+    margin:50px;
 }
