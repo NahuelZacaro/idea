@@ -1,15 +1,5 @@
 @import "tamanios";
 
-#nombreApellido{
-    width: 100px;
-    transition: all 1s;
-}
-
-#nombreApellido:focus{
-    width: 250px;
-    font-size: $taman6;
-}
-
 .parrafIndex{
     animation-duration:5s;
 }

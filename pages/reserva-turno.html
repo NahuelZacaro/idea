@@ -27,113 +27,75 @@
 
     <body>
 
-    <!--nav----> 
+        <!--nav----> 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-           <h1 class="animate__animated animate__zoomInLeft">Espacio<b>Sans</b></h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class=" nav navbar-nav w-100 justify-content-center">
-                 <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                 <a class="nav-link" href="galeria.html">Galeria</a>
-                 <a class="nav-link" href="servicios.html">Servicios</a>
-                 <a class="nav-link" href="promociones.html">Promociones</a>
-                 <a class="nav-link" href="">Reserva tu turno</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+             <h1 class="animate__animated animate__zoomInLeft">Espacio<b>Sans</b></h1>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+             <div class=" nav navbar-nav w-100 justify-content-center">
+               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+               <a class="nav-link" href="galeria.html">Galeria</a>
+               <a class="nav-link" href="servicios.html">Servicios</a>
+               <a class="nav-link" href="promociones.html">Promociones</a>
+               <a class="nav-link" href="">Reserva tu turno</a>
 
-             </div>
-         </div>
-     </nav>
-     
-     <!--section----> 
+           </div>
+       </div>
+   </nav>
 
-     <h2 class="animate__animated animate__backInDown">RESERVAS</h2>
+   <!--section----> 
 
-<div class="padre">
-     <div class="container">
-      <div class="row g-3 align-items-center">
-          <div class="col-auto">
-            <label for="text" class="col-form-label">Nombre</label>
-        </div>
-        <div class="col-auto">
-            <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-        </div>
-    </div>
-</div>
+   <h2 class="animate__animated animate__backInDown">RESERVAS</h2>
 
 <div class="container">
-  <div class="row g-3 align-items-center">
-      <div class="col-auto">
-        <label for="text" class="col-form-label">Apellido</label>
-    </div>
-    <div class="col-auto">
-        <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-    </div>
-</div>
-</div>
 
-<div class="container">
-  <div class="row g-3 align-items-center">
-      <div class="col-auto">
-        <label for="text" class="col-form-label">Servicios</label>
-    </div>
-    <div class="col-auto">
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Disponibles</option>
-          <option value="1"> Peluqueria</option>
-          <option value="2">Belleza de manos</option>
-      </select>
+<form class="row g-3">
+
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="inputNombre">
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="inputApellido">
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputState" class="form-label">Sucursales</label>
+    <select id="inputState" class="form-select">
+      <option selected>Disponibles...</option>
+      <option value="1">Betania 445</option>
+      <option value="2">Juana Cruz 22</option>
+    </select>
+  </div>
+  
+  <div class="col-md-6">
+    <label for="inputState" class="form-label">Horarios</label>
+    <select id="inputState" class="form-select">
+      <option selected>Disponibles...</option>
+      <option value="1"> Mièrcoles 10hs</option>
+      <option value="2"> Jueves 19hs</option>
+      <option value="3"> Viernes 9:30hs</option>
+      <option value="4"> Sàbados 18.30hs</option>
+    </select>
+  </div>
+
+  <div class="col-6">
+    <button type="button" class="btn btn-primary btn-lg">Solicitar Turno</button>
   </div>
 </div>
-</div>
 
-<div class="container">
-  <div class="row g-3 align-items-center">
-      <div class="col-auto">
-        <label for="text" class="col-form-label">Sucursal</label>
-    </div>
-    <div class="col-auto">
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Disponibles</option>
-          <option value="1">Betania 445</option>
-          <option value="2">Sor juana Cruz 22</option>
-
-      </select>
+  <form class="row g-3">
+<form>
+<div class="col-3">
+      <img src="../assets/img/reserva.jpg" width="600" class="imagenRes">
   </div>
-</div>
-</div>
-
-<div class="container">
-  <div class="row g-3 align-items-center">
-      <div class="col-auto">
-        <label for="text" class="col-form-label">Horarios</label>
-    </div>
-    <div class="col-auto">
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Disponibles</option>
-          <option value="1"> Miercoles 10hs</option>
-          <option value="2"> Jueves 19hs</option>
-          <option value="3"> Viernes 9:30hs</option>
-          <option value="4"> Domingo 18.30hs</option>
-
-      </select>
-  </div>
-</div>
-</div>
-
-
-<div class="container">
-  <div class="row g-3 align-items-center">
-      <div class="col-auto">
-       <button type="submit" class=" bottom btn btn-primary">Solicitar Turno</button>
-       <button type="submit" class=" bottom btn btn-primary">Borrar</button>
-   </div>
-</div>
-</div>
-</div>
-
+</form>
 
 <!--footer---->
 
