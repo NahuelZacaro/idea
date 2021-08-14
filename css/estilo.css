@@ -275,7 +275,9 @@ footer {
   .animacionFotos9 {
     animation-duration: 11s; }
   .padre {
-    margin: 0; } }
+    margin: 0; }
+  .imagenRes {
+    display: none; } }
 
 .parrafIndex {
   animation-duration: 5s; }
