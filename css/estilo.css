@@ -166,9 +166,6 @@ footer {
   font-family: "Abel", sans-serif;
   font-weight: 600; }
 
-.form-label:hover {
-  transform: translateY(-5px); }
-
 .col-md-6 {
   margin: 20px; }
 
@@ -189,7 +186,20 @@ footer {
 
 .imagenRes {
   margin-left: 800px;
-  margin-top: -750px; }
+  margin-top: -750px;
+  animation-duration: 6s; }
+
+.uno {
+  animation-duration: 2s; }
+
+.dos {
+  animation-duration: 3s; }
+
+.tres {
+  animation-duration: 4s; }
+
+.cuatro {
+  animation-duration: 5s; }
 
 .services {
   text-align: center; }
