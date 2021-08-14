@@ -170,7 +170,7 @@ footer {
   margin: 20px; }
 
 .btn {
-  margin: 20px;
+  margin: 15px;
   padding: 10px;
   background: #065471;
   width: 140px; }
@@ -287,7 +287,10 @@ footer {
   .padre {
     margin: 0; }
   .imagenRes {
-    display: none; } }
+    display: none; }
+  .espacio {
+    margin-right: 0;
+    margin-left: 0; } }
 
 .parrafIndex {
   animation-duration: 5s; }
